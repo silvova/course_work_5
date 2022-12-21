@@ -1,0 +1,15 @@
+package gomoku.net.utils;
+
+import java.util.logging.*;
+
+public class NETparam {
+
+	public static final int serverPort = 1337;
+	public static final String serverAddress = "localhost";
+
+	public static final int maxPacketLength = 32;
+
+	public static final int maxCommandLength = 20;
+	public static final int maxNameLength = 1;
+	public static final int maxDataLength = 11;
+}
